@@ -1,5 +1,5 @@
-const path = require("path");
-/*
+//const path = require("path");
+
 const { parse } = require("pg-connection-string");
 
 module.exports = ({ env }) => {
@@ -23,9 +23,10 @@ module.exports = ({ env }) => {
     },
   };
 };
-*/
+
 
 // Use this configuration for an SQLite database on your machine.
+/*
 module.exports = ({ env }) => ({
    connection: {
      client: "sqlite",
@@ -39,3 +40,4 @@ module.exports = ({ env }) => ({
      useNullAsDefault: true,
    },
  });
+*/
