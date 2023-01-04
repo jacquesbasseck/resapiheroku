@@ -23,18 +23,3 @@ module.exports = ({ env }) => {
     },
   };
 };
-
-// Use this configuration for an SQLite database on your machine.
-// module.exports = ({ env }) => ({
-//   connection: {
-//     client: "sqlite",
-//     connection: {
-//       filename: path.join(
-//         __dirname,
-//         "..",
-//         env("DATABASE_FILENAME", ".tmp/data.db")
-//       ),
-//     },
-//     useNullAsDefault: true,
-//   },
-// });
