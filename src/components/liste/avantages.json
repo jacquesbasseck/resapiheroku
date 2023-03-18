@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_liste_avantages",
+  "info": {
+    "displayName": "Avantages"
+  },
+  "options": {},
+  "attributes": {
+    "avantage1": {
+      "type": "string"
+    },
+    "avantage2": {
+      "type": "string"
+    },
+    "avantage3": {
+      "type": "string"
+    },
+    "avantage4": {
+      "type": "string"
+    },
+    "avantage5": {
+      "type": "string"
+    },
+    "avantage6": {
+      "type": "string"
+    }
+  }
+}

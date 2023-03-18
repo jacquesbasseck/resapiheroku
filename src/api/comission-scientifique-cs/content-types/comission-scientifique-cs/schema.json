@@ -1,0 +1,30 @@
+{
+  "kind": "singleType",
+  "collectionName": "comissions_scientifiques_cs",
+  "info": {
+    "singularName": "comission-scientifique-cs",
+    "pluralName": "comissions-scientifiques-cs",
+    "displayName": "COMISSION  SCIENTIFIQUE (CS)",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "presentation": {
+      "type": "richtext"
+    },
+    "objectif": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "project": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::project.project"
+    }
+  }
+}

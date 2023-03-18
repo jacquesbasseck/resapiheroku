@@ -1,0 +1,37 @@
+{
+  "kind": "singleType",
+  "collectionName": "adhesions",
+  "info": {
+    "singularName": "adhesion",
+    "pluralName": "adhesions",
+    "displayName": "Adhésion"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "description": {
+      "type": "text"
+    },
+    "url": {
+      "type": "string"
+    },
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "name": {
+      "type": "string"
+    },
+    "price": {
+      "type": "decimal"
+    }
+  }
+}

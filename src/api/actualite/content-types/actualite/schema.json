@@ -4,22 +4,22 @@
   "info": {
     "singularName": "actualite",
     "pluralName": "actualites",
-    "displayName": "Actualité"
+    "displayName": "Actualité",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
   },
   "pluginOptions": {},
   "attributes": {
-    "image": {
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos",
-        "audios"
-      ],
-      "type": "media",
-      "multiple": false
+    "title": {
+      "type": "string"
+    },
+    "nouvelle": {
+      "type": "dynamiczone",
+      "components": [
+        "information.actualite"
+      ]
     }
   }
 }

@@ -1,0 +1,37 @@
+{
+  "collectionName": "components_information_actualite",
+  "info": {
+    "displayName": "Actualité"
+  },
+  "options": {},
+  "attributes": {
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "video",
+        "image",
+        "texte"
+      ],
+      "default": "texte"
+    },
+    "media": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "video": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "texte": {
+      "type": "richtext"
+    }
+  }
+}

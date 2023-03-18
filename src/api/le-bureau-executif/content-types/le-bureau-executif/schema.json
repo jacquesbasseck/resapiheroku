@@ -1,0 +1,42 @@
+{
+  "kind": "collectionType",
+  "collectionName": "le_bureau_executifs",
+  "info": {
+    "singularName": "le-bureau-executif",
+    "pluralName": "le-bureau-executifs",
+    "displayName": "Le bureau executif"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "img": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    },
+    "poste": {
+      "type": "text"
+    },
+    "nom": {
+      "type": "string"
+    },
+    "prenom": {
+      "type": "string"
+    },
+    "civilite": {
+      "type": "enumeration",
+      "enum": [
+        "Monsieur",
+        "Madame",
+        "Mademoiselle"
+      ]
+    }
+  }
+}

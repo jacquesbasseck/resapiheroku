@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_liste_descs",
+  "info": {
+    "displayName": "Desc"
+  },
+  "options": {},
+  "attributes": {
+    "titre": {
+      "type": "string"
+    }
+  }
+}
