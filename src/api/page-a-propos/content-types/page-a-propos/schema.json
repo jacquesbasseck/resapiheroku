@@ -4,7 +4,8 @@
   "info": {
     "singularName": "page-a-propos",
     "pluralName": "pages-a-propos",
-    "displayName": "Page à propos"
+    "displayName": "Page à propos",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -33,6 +34,12 @@
       "type": "component",
       "repeatable": false,
       "component": "liste.avantages"
+    },
+    "TexteAdhesion": {
+      "type": "text"
+    },
+    "titreAdhesion": {
+      "type": "text"
     }
   }
 }
