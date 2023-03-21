@@ -1,12 +1,13 @@
 {
   "collectionName": "components_liste_descs",
   "info": {
-    "displayName": "Desc"
+    "displayName": "Desc",
+    "description": ""
   },
   "options": {},
   "attributes": {
     "titre": {
-      "type": "string"
+      "type": "text"
     }
   }
 }
