@@ -4,7 +4,8 @@
   "info": {
     "singularName": "commission-education",
     "pluralName": "commission-educations",
-    "displayName": "Commission éducation"
+    "displayName": "Commission éducation",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -23,20 +24,21 @@
     "description": {
       "type": "richtext"
     },
-    "promotion": {
+    "promotions": {
       "type": "relation",
-      "relation": "oneToOne",
+      "relation": "oneToMany",
       "target": "api::promotion.promotion"
     },
     "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
     }
   }
 }
