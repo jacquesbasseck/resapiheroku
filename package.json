@@ -11,13 +11,13 @@
   },
   "devDependencies": {},
   "dependencies": {
-    "@strapi/strapi": "4.8.2", 
-    "@strapi/plugin-users-permissions": "4.8.2",
-    "@strapi/plugin-i18n": "4.8.2",
-
     "@ckeditor/strapi-plugin-ckeditor": "^0.0.7",
     "@strapi-newsletter/strapi": "^0.1.2",
+    "@strapi/plugin-documentation": "^4.9.0",
+    "@strapi/plugin-i18n": "4.8.2",
+    "@strapi/plugin-users-permissions": "4.8.2",
     "@strapi/provider-upload-cloudinary": "^4.6.0",
+    "@strapi/strapi": "4.8.2",
     "better-sqlite3": "7.4.6",
     "fs": "^0.0.1-security",
     "pg": "^8.7.3",
