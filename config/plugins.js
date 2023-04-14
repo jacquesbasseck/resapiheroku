@@ -18,5 +18,17 @@ module.exports = ({ env }) => ({
     config: {
       jwtSecret: env('JWT_SECRET')
     }
-  }
+  },
+  graphql: {
+    config: {
+      endpoint: '/graphql',
+      shadowCRUD: true,
+      playgroundAlways: true,
+      depthLimit: 7,
+      amountLimit: 200,
+      apolloServer: {
+        tracing: false,
+      },
+    },
+  },
 });
