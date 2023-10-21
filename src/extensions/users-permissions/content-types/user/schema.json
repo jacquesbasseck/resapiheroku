@@ -9,8 +9,7 @@
     "displayName": "User"
   },
   "options": {
-    "draftAndPublish": false,
-    "timestamps": true
+    "draftAndPublish": false
   },
   "attributes": {
     "username": {
@@ -70,39 +69,46 @@
       "type": "string"
     },
     "lastname": {
-      "type": "string"
+      "type": "string",
+      "default": " "
     },
     "photo": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
     },
     "description": {
-      "type": "richtext"
+      "type": "richtext",
+      "default": "  "
     },
     "job": {
-      "type": "text"
+      "type": "text",
+      "default": " "
     },
     "cv": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images",
         "videos",
         "audios",
         "files"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
     },
     "biography": {
-      "type": "richtext"
+      "type": "richtext",
+      "default": " "
     },
     "facebook": {
-      "type": "string"
+      "type": "string",
+      "default": " "
     },
     "birthday": {
       "type": "date"
